@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _growthSpeed: 0.1
-  _movementDirection: {x: 0, y: 0, z: 0}
+  _movementDirection: {x: 0, y: 0, z: 0.01}
   _rotation: {x: 0, y: 2, z: 0}
   _rotationSpeed: 0.2
 --- !u!1 &705507993
