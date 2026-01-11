@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933b17ad76467214b8f4afeaec42ea8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementDirection: {x: -0.01, y: 0, z: 0}
+  _movementDirection: {x: -0.001, y: 0, z: 0}
 --- !u!135 &33852989
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -346,6 +346,8 @@ GameObject:
   - component: {fileID: 664570871}
   - component: {fileID: 664570870}
   - component: {fileID: 664570869}
+  - component: {fileID: 664570875}
+  - component: {fileID: 664570874}
   - component: {fileID: 664570873}
   m_Layer: 0
   m_Name: Cube
@@ -450,13 +452,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 664570868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 448de7a10f474834ba759c3b7899a88b, type: 3}
+  m_Script: {fileID: 11500000, guid: 933b17ad76467214b8f4afeaec42ea8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _growthSpeed: 0.1
-  _movementDirection: {x: 0, y: 0, z: 0.01}
-  _rotation: {x: 0, y: 2, z: 0}
-  _rotationSpeed: 0.2
+  _movementDirection: {x: 0.03, y: 0, z: 0}
+--- !u!114 &664570874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664570868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c380fd950764f7c4baa8782c53670f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotation: {x: 0, y: 1, z: 0}
+  _rotationSpeed: 1
+--- !u!114 &664570875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664570868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd7e8dc863d15c47822eae85cded93d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _growthSpeed: 0.03
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

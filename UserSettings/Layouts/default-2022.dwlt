@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -568,7 +568,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000587900005677000084760000a6680000000000005e710000a26600002666000018660000c4640000b8640000a0640000ac6400001a830000328300000c8300000e83000026830000b85a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1128,9 +1128,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.03890866, y: 0.8331064, z: -0.059091058, w: 0.548569}
   m_Size:
-    m_Target: 14.934315
+    m_Target: 10.660941
     speed: 2
-    m_Value: 14.934315
+    m_Value: 10.660941
   m_Ortho:
     m_Target: 0
     speed: 2
